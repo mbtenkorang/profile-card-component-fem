@@ -85,7 +85,7 @@ footer>a {
 
 /* Mobile styling */
 .container {
-    background: -20% -20% / 50% no-repeat url("/assets/images/bg-pattern-top.svg"), 200% 150% / 90% 70% no-repeat url("/assets/images/bg-pattern-bottom.svg");
+    background: -20% -20% / 50% no-repeat url("./assets/images/bg-pattern-top.svg"), 200% 150% / 90% 70% no-repeat url("./assets/images/bg-pattern-bottom.svg");
     background-color: var(--darkcyan);
 }
 
@@ -94,7 +94,7 @@ footer>a {
     height: 28rem;
     width: 86%;
     position: relative;
-    background: top left / 100% 40% no-repeat url("/assets/images/bg-pattern-card.svg");
+    background: top left / 100% 40% no-repeat url("./assets/images/bg-pattern-card.svg");
     background-color: var(--white);
     border-radius: 1rem;
 }
