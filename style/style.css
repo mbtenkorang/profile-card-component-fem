@@ -102,10 +102,10 @@ footer>a {
 }
 
 .b-profile__content {
-    height: 85%;
+    height: 70%;
     width: 100%;
     position: absolute;
-    top: 15%;
+    top: 24%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@ footer>a {
 
 .avatar {
     max-width: 50%;
-    border: 2px solid var(--white);
+    border: 3px solid var(--white);
     border-radius: 50%;
 }
 
