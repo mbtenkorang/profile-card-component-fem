@@ -11,7 +11,7 @@
     --white: hsl(0, 0%, 99%);
 
     /* Typography */
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Kumbh Sans", system-ui, -apple-system, sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -87,7 +87,7 @@ footer>a {
 
 /* Mobile styling */
 .container {
-    background: -20% -20% / 50% no-repeat url("../assets/images/bg-pattern-top.svg"), 200% 150% / 90% 70% no-repeat url("../assets/images/bg-pattern-bottom.svg");
+    background: top -100px left -200px / 100% no-repeat url("../assets/images/bg-pattern-top.svg"), bottom -200px right -115px / 100% no-repeat url("../assets/images/bg-pattern-bottom.svg");
     background-color: var(--darkcyan);
 }
 
@@ -124,7 +124,7 @@ footer>a {
 }
 
 .b-details--name {
-    margin-inline-end: 1rem;
+    margin-inline-end: .7rem;
 }
 
 .b-container--details {
