@@ -87,7 +87,7 @@ footer>a {
 
 /* Mobile styling */
 .container {
-    background: top -100px left -200px / 100% no-repeat url("../assets/images/bg-pattern-top.svg"), bottom -200px right -115px / 100% no-repeat url("../assets/images/bg-pattern-bottom.svg");
+    background: top -100px left -200px / 100% no-repeat url("../assets/images/bg-pattern-top.svg"), bottom -200px right -195px / 100% no-repeat url("../assets/images/bg-pattern-bottom.svg");
     background-color: var(--darkcyan);
 }
 
@@ -129,6 +129,7 @@ footer>a {
 
 .b-container--details {
     width: inherit;
+    margin-block-end: 1rem;
 }
 
 .b-text--large {
@@ -174,4 +175,14 @@ footer>a {
     width: 100%;
     border: 1px solid var(--darkgray);
     opacity: .5;
+}
+
+@media only screen and (min-width: 490px) {
+    .container {
+        background-size: 50%, 50%;
+    }
+
+    .b-profile__card {
+        max-width: 28rem;
+    }
 }
