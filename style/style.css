@@ -87,14 +87,14 @@ footer>a {
 
 /* Mobile styling */
 .container {
-    background: top -100px left -200px / 100% no-repeat url("../assets/images/bg-pattern-top.svg"), bottom -200px right -195px / 100% no-repeat url("../assets/images/bg-pattern-bottom.svg");
+    background: top -100px left -200px / 100% no-repeat url("../assets/images/bg-pattern-top.svg"), bottom -150px right -195px / 100% no-repeat url("../assets/images/bg-pattern-bottom.svg");
     background-color: var(--darkcyan);
 }
 
 
 .b-profile__card {
     height: 30rem;
-    width: 86%;
+    width: 90%;
     position: relative;
     background: top left / 100% 40% no-repeat url("../assets/images/bg-pattern-card.svg");
     background-color: var(--white);
